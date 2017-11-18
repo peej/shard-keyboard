@@ -51,7 +51,7 @@ U 1 1 59F62FDE
 P 1700 3700
 F 0 "U1" V 1800 3650 60  0000 C CNN
 F 1 "ARDUINO_PRO_MICRO" V 1700 3650 60  0000 C CNN
-F 2 "keebs:Pro_Micro" H 1550 4200 60  0001 C CNN
+F 2 "footprints:ARDUINO_PRO_MICRO" H 1550 4200 60  0001 C CNN
 F 3 "" H 1550 4200 60  0000 C CNN
 	1    1700 3700
 	1    0    0    -1  
@@ -574,8 +574,6 @@ F 3 "" H 8950 4300 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 NoConn ~ 2300 2900
-NoConn ~ 2300 3500
-NoConn ~ 2300 3600
 NoConn ~ 2300 4400
 NoConn ~ 2300 4500
 NoConn ~ 1100 3800
@@ -595,13 +593,13 @@ Text Label 2300 4300 0    60   ~ 0
 Col0
 Text Label 2300 4200 0    60   ~ 0
 Col1
-Text Label 2300 3100 0    60   ~ 0
-Row0
-Text Label 2300 3200 0    60   ~ 0
-Row1
 Text Label 2300 3300 0    60   ~ 0
-Row2
+Row0
 Text Label 2300 3400 0    60   ~ 0
+Row1
+Text Label 2300 3500 0    60   ~ 0
+Row2
+Text Label 2300 3600 0    60   ~ 0
 Row3
 Text Label 2300 4000 0    60   ~ 0
 Col2
@@ -801,4 +799,6 @@ Wire Wire Line
 Connection ~ 7950 4500
 Wire Wire Line
 	3650 1500 3650 3350
+NoConn ~ 2300 3100
+NoConn ~ 2300 3200
 $EndSCHEMATC
